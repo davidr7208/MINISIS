@@ -56,5 +56,5 @@ def realizar_entrega(factory: TransporteFactory):
 realizar_entrega(CarroFactory())
 realizar_entrega(BicicletaFactory())
 realizar_entrega(BarcoFactory())
-
+# listo leido tambien
 
