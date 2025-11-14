@@ -23,6 +23,7 @@ class Barco(Transporte):
         print("Entrega internacional por barco.")
 
 
+
 # Creador abstracto
 class TransporteFactory(ABC):
     @abstractmethod
@@ -57,4 +58,5 @@ realizar_entrega(CarroFactory())
 realizar_entrega(BicicletaFactory())
 realizar_entrega(BarcoFactory())
 
+#listo leido
 
